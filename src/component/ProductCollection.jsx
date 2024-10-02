@@ -15,10 +15,10 @@ const ProductCollection = () => {
     <div>
       <div>
         <div className="grid md:grid-cols-2  md:gap-20 pt-10 ">
-          <h1 className="text-5xl font-semibold">
-            Our new Exclusive <p className="my-5">Collection</p>
+          <h1 className="lg:text-5xl text-3xl leading-tight font-semibold">
+            Our new Exclusive <br /> Collection
           </h1>
-          <p className="flex items-center  font-semibold text-gray-800">
+          <p className="flex items-center md:my-0 my-5 text-sm font-semibold text-gray-800">
             Elevated your interiour with our curated selection of premium
             furniture and accessories
           </p>

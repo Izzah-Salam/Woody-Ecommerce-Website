@@ -6,7 +6,7 @@ import TestimonialPage from "./component/TestimonialPage";
 function App() {
   return (
     <>
-      <div className="lg:mx-16 md:mx-6 font-Montserrat">
+      <div className="lg:mx-16 mx-6 font-Montserrat">
         <LandingPage />
         <ProductCollection />
         <TestimonialPage />

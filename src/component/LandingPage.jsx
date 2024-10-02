@@ -8,19 +8,20 @@ const LandingPage = () => {
       <Navbar />
       <div className="my-20 grid md:grid-cols-2 md:gap-x-20">
         <div className="flex flex-col justify-center ">
-          <p className="my-5 text-5xl font-semibold ">
-            Modern Furniture for <p className="my-5">minimalist lover</p>
+          <p className="my-5 lg:text-5xl text-3xl leading-tight font-semibold ">
+            Modern Furniture for <br /> minimalist lover
           </p>
           <p className="text-sm">
             Experince the ulimate relaxation with our collection of serene and
             tranquil spa-inspired designs.
           </p>
           <div className=" flex space-x-10 my-10 font-semibold">
-            <button className="bg-lightgreen py-2 px-5 rounded-md">
+            <button className="bg-lightgreen py-2 md:px-5 px-3  md:text-xl text-sm rounded-md">
               Shop Now
             </button>
             <button>
-              Shop reel <hr className="border-t-2 border-black" />
+              Shop reel{" "}
+              <hr className="border-t-2  md:text-xl text-sm border-black" />
             </button>
           </div>
         </div>
