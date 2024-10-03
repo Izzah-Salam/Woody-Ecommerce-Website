@@ -1,6 +1,9 @@
+import Footer from "./component/Footer";
 import Gallery from "./component/Gallery";
 import LandingPage from "./component/LandingPage";
 import ProductCollection from "./component/ProductCollection";
+
+import ProjectsSection from "./component/ProjectsSection";
 import TestimonialPage from "./component/TestimonialPage";
 
 function App() {
@@ -11,7 +14,9 @@ function App() {
         <ProductCollection />
         <TestimonialPage />
         <Gallery />
+        <ProjectsSection />
       </div>
+      <Footer />
     </>
   );
 }

@@ -16,7 +16,7 @@ const LandingPage = () => {
             tranquil spa-inspired designs.
           </p>
           <div className=" flex space-x-10 my-10 font-semibold">
-            <button className="bg-lightgreen py-2 md:px-5 px-3  md:text-xl text-sm rounded-md">
+            <button className="bg-lightgreen py-2 md:px-5 px-3  md:text text-sm rounded-md">
               Shop Now
             </button>
             <button>

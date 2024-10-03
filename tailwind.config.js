@@ -10,6 +10,12 @@ export default {
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
       },
+      colors: {
+        lightgreen: "#d2ee7f",
+      },
+      borderColor: {
+        lightgreen: "#d2ee7f",
+      },
     },
     plugins: [],
   },
