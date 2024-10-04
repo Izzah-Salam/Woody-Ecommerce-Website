@@ -32,7 +32,7 @@ const TestimonialPage = () => {
             Minimalism Actually <br /> meets the <br /> Functioanality{" "}
           </h1>
           <p className="text-gray-800 text-sm mt-10">
-            Experience the ultimate relaxation with our collection of serene and
+            Experience The ultimate relaxation with our collection of serene and
             tranquil spa inspired designs
           </p>
           <button className="bg-lightgreen py-2 md:px-5 px-3   md:text-xl text-sm rounded-md my-10">
