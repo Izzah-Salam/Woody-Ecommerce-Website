@@ -8,7 +8,7 @@ const Gallery = () => {
         Crafted with Passion
       </h1>
       <div className="grid md:grid-cols-2 gap-5 md:px-20 px-5">
-        <div>
+        <div className="relative">
           <div className="mb-5">
             {" "}
             <img

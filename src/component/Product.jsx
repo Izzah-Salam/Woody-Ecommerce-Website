@@ -17,9 +17,16 @@ const Product = ({ item }) => {
             <div className="flex flex-col items-center">
               <h1 className="lg:text-xl font-semibold my-2">{data.name}</h1>
             </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center cursor-pointer  bg-opacity-50 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
-              <h2 className=" text-xl mb-2"></h2>
-              <p className=" text-xl font-bold">CheckOut</p>
+            <div
+              className="absolute inset-0 flex flex-col items-center justify-center cursor-pointer bg-opacity-50 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100"
+              style={{
+                background: "rgba(210, 238, 127, 0.5)",
+                backdropFilter: "blur(4px)",
+              }}
+            >
+              <button className="font-bold border border-lime-800 bg-transparent text-lime-800 rounded-md py-2 px-4 hover:bg-lime-800 hover:text-white transition duration-300 ease-in-out">
+                More Details
+              </button>
             </div>
           </div>
         ))}

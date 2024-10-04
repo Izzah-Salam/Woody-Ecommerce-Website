@@ -32,7 +32,7 @@ const LandingPage = () => {
             className="rounded-2xl lg:w-[70%]  transition duration-300 ease-in-out filter  cursor-pointer group-hover:backdrop-blur-sm"
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center cursor-pointer  bg-opacity-50 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
-            <h2 className="text-white text-3xl mb-2">Book a Table</h2>
+            <h2 className="text-white text-3xl mb-2">Book a Chair</h2>
             <p className="text-white text-xl">Experience the Ultimate</p>
           </div>
         </div>
