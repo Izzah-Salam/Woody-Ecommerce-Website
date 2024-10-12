@@ -28,7 +28,7 @@ const ProductCollection = () => {
           filterItems={filterItems}
           setItem={setItem}
         />
-        <Product item={item} />
+        <Product item={item} id={Data.id} />
       </div>
     </div>
   );

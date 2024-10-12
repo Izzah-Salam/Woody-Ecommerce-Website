@@ -1,11 +1,10 @@
 import React from "react";
-import Navbar from "./Navbar";
+
 import landing from "../assets/img/landing.avif";
 
 const LandingPage = () => {
   return (
     <div>
-      <Navbar />
       <div className="my-20 grid md:grid-cols-2 md:gap-x-20">
         <div className="flex flex-col justify-center ">
           <p className="my-5 lg:text-5xl text-3xl leading-tight font-semibold ">

@@ -1,6 +1,11 @@
 import Projects from "./Projects";
+import ProjectData from "./ProjectData";
+import { useState } from "react";
 
 const ProjectsSection = () => {
+  const [projectItems, setProjectItems] = useState(ProjectData);
+  //console.log(projectItems);
+
   return (
     <div className="my-32 md:px-16 px-10">
       <div className="grid md:grid-cols-2 md:gap-20 pb-10 ">
@@ -12,7 +17,7 @@ const ProjectsSection = () => {
           furniture and accessories
         </p>
       </div>
-      <Projects />
+      <Projects projectItems={projectItems} />
     </div>
   );
 };
