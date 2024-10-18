@@ -5,11 +5,20 @@ import { IoMdClose } from "react-icons/io";
 import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { ToggleStatusTab } from "../store/cart";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const carts = useSelector((store) => store.cart.items);
   const [totalQuantity, setTotalQuantity] = useState();
+  const dispatch = useDispatch();
+
+  // cartTab Functionality
+
+  const handleCartTab = () => {
+    dispatch(ToggleStatusTab());
+  };
 
   useEffect(() => {
     let total = 0;
@@ -68,10 +77,11 @@ const Navbar = () => {
             <li>Brows</li>
             <li>FAQ</li>
             <li>Contact</li>
-            <li>
-              <IoPersonCircleOutline className="text-3xl" />
-            </li>
-            <div className="bg-lightgreen text-2xl p-1 rounded-full relative">
+
+            <div
+              className="bg-lightgreen text-2xl p-1 rounded-full relative"
+              onClick={handleCartTab}
+            >
               <li>
                 <IoCartOutline />
               </li>

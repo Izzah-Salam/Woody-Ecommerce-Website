@@ -12,6 +12,7 @@ const Product = ({ item }) => {
       addToCart({
         productId: product.id,
         quantity: 1,
+        price: product.price, // Add one item to the cart at a time
       })
     );
   };

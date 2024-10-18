@@ -7,6 +7,7 @@ import TestimonialPage from "./component/TestimonialPage";
 import Navbar from "./component/Navbar";
 import { useRoutes } from "react-router-dom";
 import ProjectDetail from "./component/ProjectDetail";
+import CardTab from "./component/CartTab";
 
 // Define the routes
 function CustomRoute() {
@@ -24,6 +25,7 @@ function CustomRoute() {
           </div>
 
           <Footer />
+          <CardTab />
         </>
       ),
     },
